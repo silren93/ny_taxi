@@ -1,0 +1,29 @@
+# Ignore CSV data files
+*.csv
+output.csv
+
+# Ignore PostgreSQL data directory
+ny_taxi_postgres_data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Ignore virtual environment
+venv/
+env/
+.env
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
